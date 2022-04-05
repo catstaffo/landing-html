@@ -1,0 +1,42 @@
+body {
+    font-family: 'Allerta Stencil', sans-serif;
+    background-color: mistyrose;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    max-width: 236px;
+    max-height: 236px;
+    margin-top: 160px;
+    margin-left: 300px;
+}
+
+.profile-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    border-radius: 5px;
+}
+
+h1 {
+    opacity: 40%;
+    text-align: center;
+    letter-spacing: 20px;
+}
+
+h3 {
+    opacity: 60%;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.link-icons {
+    font-size: 64px;
+    text-align: center;
+    opacity: 60%;
+}
